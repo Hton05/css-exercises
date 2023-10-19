@@ -1,0 +1,17 @@
+.odd {
+    background-color: lightpink;
+}
+#numb2 {
+    color: blue;
+    font-size: 36px;
+}
+
+#numb4 {
+    font-size: 24px;
+}
+
+#numb5 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
