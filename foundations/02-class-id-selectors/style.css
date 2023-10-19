@@ -1,17 +1,18 @@
 .odd {
-    background-color: lightpink;
+    background-color: rgb(255, 182, 193);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
 }
+
 #numb2 {
-    color: blue;
+    color: rgb(0, 0, 255);
     font-size: 36px;
 }
 
-#numb4 {
+.other {
     font-size: 24px;
 }
 
-#numb5 {
+#numb4 {
     background-color: lightgreen;
-    font-size: 24px;
     font-weight: bold;
 }

@@ -8,10 +8,21 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+    <!--Tous les nombres impairs ont la meme style, j'opte pour le selector class-->
     <p class="odd">Number 1 - I'm a class!</p>
+
+    <!--Selector id-->
     <div id="numb2">Number 2 - I'm one ID.</div>
-    <p class="odd" id="numb4">Number 3 - I'm a class, but cooler!</p>
-    <div id="numb5">Number 4 - I'm another ID.</div>
+
+    <!-- 2 selectors. Je pourrai prendre un class et un id mais vu que il y a 2 elements qui partagent les memes styles, pour eviter la repititions j'opte pour 2 
+    class
+     -->
+    <p class="odd other">Number 3 - I'm a class, but cooler!</p>
+
+    <!-- id et class -->
+    <div id="numb4" class="other">Number 4 - I'm another ID.</div>
+
     <p class="odd">Number 5 - I'm a class!</p>
   </body>
 </html>
